@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Java script ilk kodlar</title>
+  </head>
+  <body>
+    <h1>Javascript</h1>
+    <!-- ** script etiketleri arasında js kodları inline olarak yazılabilir -->
+    <script>
+      console.log("Inline JS");
+      console.warn("Inline JS daha az tercih edilir.");
+    </script>
+    <!-- ** inline demek tml dosyasi icne yazmak -->
+
+    <!-- ! Ya da harici bir dosya olarak çağrılabilir.  -->
+    <!-- ** burada ise ayri bir dosya uretip yolunu buraya yaziyoruz -->
+    <script src="app.js"></script>
+  </body>
+
+  <!-- ** not: JS kodlarının bu şekilde HTML dosyasının içerisine eklenmesine inline
+*script denilmektedir.
+*• Inline script JS komutlarını harici başka dosyaya ihtiyaç duymadan
+*yazmak için elverişlidir.
+*• Ancak, genel kabul HTML, CSS ve JS dosyalarının ayrı dosyalarda
+*tutulmasıdır. -->
+
+  <!-- **========================== -->
+  <!-- **index.html ile JS dosyasının bağlantısını sağlamak için;
+  *<script src=script.js></script> -->
+</html>
